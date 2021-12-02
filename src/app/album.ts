@@ -1,9 +1,8 @@
-export interface Album {
-}
+import{Track} from './track'
 
-let Album = {
-    name:','
-    releaseDate:','
-    coverImage: ','
-    tracks: Track[]
+export interface Album {
+name:string;
+releaseDate:string;
+coverImage:string;
+tracks:Track[];
 }
